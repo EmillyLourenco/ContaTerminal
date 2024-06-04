@@ -6,29 +6,29 @@ public class Banco {
         Scanner scanner = new Scanner(System.in);
         
         // Solicitação e leitura dos dados do usuário
-        System.out.println("Por favor, digite o número da conta:1021");
+        System.out.println("Por favor, digite o número da conta:");
         int numero = scanner.nextInt();
         scanner.nextLine(); // Consome a linha pendente
 
-        System.out.println("Por favor, digite o número da Agência:067-8");
+        System.out.println("Por favor, digite o número da Agência:");
         String agencia = scanner.nextLine();
         
-        System.out.println("Por favor, digite o nome do cliente:MARIO ANDRADE");
+        System.out.println("Por favor, digite o nome do cliente:");
         String nomeCliente = scanner.nextLine();
         
-        System.out.println("Por favor, digite o saldo:237.48");
+        System.out.println("Por favor, digite o saldo:");
         double saldo = scanner.nextDouble();
 
         // Fechamento do scanner
         scanner.close();
 
         // Mensagem de confirmação com concatenação de strings
-        String mensagem = "Olá ".concat(nomeCliente)
+        String mensagem = "Olá ".concat(MARIO ANDRADE)
                             .concat(", obrigado por criar uma conta em nosso banco, sua agência é ")
-                            .concat(agencia)
-                            .concat(", conta ")
+                            .concat(067-8)
+                            .concat(", 1021 ")
                             .concat(String.valueOf(numero))
-                            .concat(" e seu saldo ")
+                            .concat(" 237.48 ")
                             .concat(String.valueOf(saldo))
                             .concat(" já está disponível para saque.");
 
